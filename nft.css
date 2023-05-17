@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+
+.entirecontent {
+    background-color: hsl(216, 50%, 16%);
+    width: 465px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white {
+    color: white;
+}
+
+.white.A {
+    font-size: 5px;
+}
+
+.cyan{
+    color: cyan;
+    
+}
+
+.para {
+    color: hsl(215, 78%, 86%);
+}
+
+.image img {
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.active {
+    background-color: cyan;
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    margin: 30px;
+    position: absolute;
+    top: 0;
+    height: 400px;
+    opacity: 0;
+}
+
+.active:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.active svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.column {
+    display: flex;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.cont2{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.para.motion {
+    font-size: 25px;
+    margin: 30px;
+}
+
+.white.equilibrium {
+    padding-left: 30px;
+}
+
+.white:hover{
+    cursor: pointer;
+    color: cyan;
+}
+
+.para.dormant {
+    margin-left: 190px;
+}
+
+.face img {
+    width: 35px;
+    border-radius: 70px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.face{
+    display: flex;
+    margin: 5px 0;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 78%, 86%);
+    opacity: 0.2;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.para.true {
+    /* padding-left: 20px; */
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
